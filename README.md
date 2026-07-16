@@ -10,6 +10,20 @@ Object-oriented analysis and design for a campsite management system ("Gestão d
 
 Manages a campsite front-office end to end: registering guests ("utentes") and their units (motorhome, caravan, or tent) into plots ("talhões"), tracking stays ("entradas") from check-in to check-out, and issuing invoices with tourist tax and VAT applied. The system was designed to be implemented in Java, console-based, in NetBeans.
 
+## Assignment brief
+
+This is an **individual** project (not a group assignment) for Fundamentos de Programação Orientada a Objetos. The official brief — full requirements, pricing tables, plot-occupancy rules, and the grading rubric — is in [`docs/enunciado.pdf`](docs/enunciado.pdf), with the base specification document it was built from in [`docs/especificacao_sistema.docx`](docs/especificacao_sistema.docx) and the noun/verb analysis methodology (CRC cards) in [`docs/anexo1_metodologia.pptx`](docs/anexo1_metodologia.pptx).
+
+The project runs in three graded phases:
+
+| Phase | Deliverable | Weight |
+|---|---|---|
+| 1 | Requirements analysis & UML design (this repo) | 35% |
+| 2 | Full Java implementation in NetBeans, prototype with all required features | 65% |
+| — | Mandatory oral defense each phase | pass/fail on code ownership |
+
+Submissions go through Moodle and are checked with MOSS for plagiarism; each phase also requires defending the code orally to prove it's genuinely the student's own work.
+
 ## Methodology
 
 Requirements were analyzed using the noun/verb method: entities and actions were extracted directly from the assignment brief, cross-referenced into entity–action–description tables, then modeled into class candidates with attributes and methods. Use case diagrams were sketched for the main flows, and every ambiguity or inconsistency found in the brief was documented along with the design decision taken to resolve it.
@@ -43,6 +57,14 @@ Requirements were analyzed using the noun/verb method: entities and actions were
 ## Full report
 
 The complete write-up — entity/verb tables, full class candidate table with attributes and methods, all use case scenarios, and every documented assumption — is in [`docs/relatorio_fase1.pdf`](docs/relatorio_fase1.pdf) (Portuguese).
+
+## Documents
+
+- [`docs/relatorio_fase1.pdf`](docs/relatorio_fase1.pdf) / [`.docx`](docs/relatorio_fase1.docx) — the Phase 1 deliverable (this student's analysis and design work)
+- [`docs/enunciado.pdf`](docs/enunciado.pdf) — official assignment brief, pricing tables, occupancy rules, and grading rubric
+- [`docs/especificacao_sistema.docx`](docs/especificacao_sistema.docx) — base system specification the noun/verb analysis was applied to
+- [`docs/anexo1_metodologia.pptx`](docs/anexo1_metodologia.pptx) — noun/verb + CRC card methodology reference
+- [`docs/template_relatorio.docx`](docs/template_relatorio.docx) — report template provided by the instructor
 
 ## Status
 
