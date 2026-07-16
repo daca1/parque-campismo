@@ -49,7 +49,7 @@ parque-campismo/
 
 ## How to run
 
-Requires Java 11+. With NetBeans: open `src/parquecampismo` as a project and run it. From the command line:
+Requires Java 11+. With NetBeans: `File > Open Project`, select the repository's root folder (the one containing `build.xml` and `nbproject/`) — NetBeans will recognize it as an Ant-based Java project. Then just hit Run. From the command line:
 
 ```bash
 cd src
